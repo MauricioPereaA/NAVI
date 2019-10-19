@@ -3,7 +3,7 @@ h1 {
 }
 .bike-body > * {
 
-    border: 1px solid #feae03);
+    border: 1px solid #feae03;
 }
 header{
     background: #323a40;
@@ -15,7 +15,7 @@ header{
         justify-content: center;
         align-items: center;
     }
-}
+
 .bike-footer{
     background: #323a40;
 }
