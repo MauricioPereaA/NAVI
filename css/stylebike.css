@@ -3,19 +3,19 @@ h1 {
 }
 .bike-body > * {
 
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #feae03);
 }
 .bike-header{
-    background: #feae03;
+    background: #323a40;
 }
 .bike-footer{
-    background: #feae03;
+    background: #323a40;
 }
 .bike-body{
- background: #ffffff;
+ background: #feae03;
  margin: 0;
  display: grid;
- grid-template-rows: 150px 1fr 50px;
+ grid-template-rows: 50px 1fr 50px;
  grid-template-columns: 1fr 2fr;
  grid-gap: 10px;
  min-height: 100vh;
@@ -45,12 +45,14 @@ main{
 .bike-zone{
     margin: 5px;
     border: 1pX;
-    height: 50px;
+    height: 150px;
     padding: 5px;
     grid-row: 1;
-    flex: 1;
+
 }
 .bike-footer{
-    grid-row: 3/4;
-    grid-column: 1/4;
+    grid-row: 4/4;
+    grid-column: 1/3;
 }
+
+
