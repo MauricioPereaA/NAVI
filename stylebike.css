@@ -1,0 +1,56 @@
+h1 {
+   font-size: 30px;
+}
+.bike-body > * {
+
+    border: 1px solid rgb(255, 255, 255);
+}
+.bike-header{
+    background: #feae03;
+}
+.bike-footer{
+    background: #feae03;
+}
+.bike-body{
+ background: #ffffff;
+ margin: 0;
+ display: grid;
+ grid-template-rows: 150px 1fr 50px;
+ grid-template-columns: 1fr 2fr;
+ grid-gap: 10px;
+ min-height: 100vh;
+}
+main{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bike-nav{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column: 1; /* si no termina, mide 1*/
+}
+.bike-ul li {
+    padding: 25px 10px;
+    border-bottom: 1px solid grey;
+}
+.bike-header{
+    grid-row: 1;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bike-zone{
+    margin: 5px;
+    border: 1pX;
+    height: 50px;
+    padding: 5px;
+    grid-row: 1;
+    flex: 1;
+}
+.bike-footer{
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
