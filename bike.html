@@ -9,49 +9,57 @@
     <link rel="stylesheet" href="css/stylebike.css">
 </head>
 <body class="bike-body">
-        <header class="bike-header">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                        <a class="navbar-brand" href="#">NAVI</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                           aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                           <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarText">
-                           <ul class="navbar-nav mr-auto">
-                              <li class="nav-item active">
-                                 <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#">Descarga</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#">Acerca De</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="login.html">Login</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#">Registro</a>
-                              </li>
-                           </ul>
-                           <span class="navbar-text">
-                              Navbar text with an inline element
-                           </span>
-                        </div>
-                     </nav>
-        </header>
+        <header>
+         <!-- HEADER DE LA PAGINA -->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">NAVI</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+               aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Descarga</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Acerca De
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="bike.html">Bikers</a>
+                        <a class="dropdown-item" href="#">Runners</a>
+                     </div>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Registro</a>
+                  </li>
+               </ul>
+               <span class="navbar-text">
+                  Navbar text with an inline element
+               </span>
+            </div>
+         </nav>
+         <!-- FIN HEADER DE LA PAGINA -->
+         </header>
+         <!-- MENU PARA FUNCIONALIDADES WEB -->
     <nav class="bike-nav">
         <ul class="bike-ul">
-            <li><h4>REGISTRA TU RUTA</h4></li>
-            <li><h4>CONOCE TUS RUTAS</h4></li>
-            <li><h4>REGISTRA TU BIKE</h4></li>
+            <li>REGISTRA TU RUTA</li>
+            <li>CONOCE TUS RUTAS</li>
+            <li>REGISTRA TU BIKE</li>
         </ul>
     </nav>
     <main>
         <div class="bike-zone"><img src="/images/background-bike.jpg" alt="IMAGEN"></div>
-        
     </main>
-    <footer class="bike-footer"> <h2> MENU DE COMPAÑERO DE PIE DE PAGINA </h2></footer>
+    <footer></footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
