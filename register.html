@@ -7,24 +7,28 @@
    <!-- BootStrap Core -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <link rel="stylesheet" href="css/style.css">
-   <title>NAVI-Login</title>
+   <title>NAVI-Register</title>
 </head>
 <body class="text-center">
-   <form action="" class="form-signin">
+   <form class="form-register">
       <img class="logo-navi" src="images/logo-120.jpeg" alt="" width="120" height="67">
-      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-      <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
-      <div class="checkbox mb-3">
-         <label>
-           <input type="checkbox" value="remember-me"> Remember me
-         </label>
-       </div>
-       <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-       <p class="mt-5 mb-3 text-muted"><a href="register.html">Register</a></p>
-      </form>
+      <h1>Registro Nuevo</h1>
+      <div class="form-name">
+        <label for="exampleInputEmail1">Ingresa tu nombre </label>
+        <input type="name" class="form-control" id="InputName" aria-describedby="NameHelp" placeholder="Enter Name">
+        <small id="nameHelp" class="form-text text-muted">Ingresa tu nombre completo.</small>
+      </div>
+      <div class="form-email">
+            <label for="InputEmail">Ingresa tu Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">Esta informacion es confidencial .</small>
+          </div>
+      <div class="form-password">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
