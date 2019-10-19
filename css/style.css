@@ -57,4 +57,76 @@ body {
   border-radius: 10px;
 }
 
+body {
+  background-color: gainsboro;
+  background-image: url(https://www.ulcemed.com/wp-content/uploads/2016/10/Tratamiento-para-running-blog-Clínica-Ulcemed-2.jpg);
+  height: 100vh;
+}
+
+
+.running {
+  margin: auto;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, .2)
+}
+
+
+.runners {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 100%;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+
+.mobile {
+  color: white;
+  font-size: 22px;
+  padding: 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+.x {
+  color: white;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  width: 700px;
+}
+
+@media (max-width: 725px) {
+  .x {
+      display: block;
+      width: 500px;
+  }
+} .runners {
+  display: block;
+  grid-template-columns: repeat(3, auto);
+  width: 100%;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}.running {
+  margin: auto;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, .2)
+} footer {
+  text-align: center;
+  margin: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
+
+
