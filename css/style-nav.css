@@ -9,9 +9,9 @@ body{
 }
 
 .container{
-    background: #fff;
     max-width: 1200px;
-    width: 80%;
+    width: 100%;
+    margin: auto;
 }
 
 
